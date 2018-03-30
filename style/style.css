@@ -1,0 +1,84 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+#map{
+	position: relative;
+	width: 800px;
+	height: 600px;
+	background-image: url(114096-OOQBDM-347.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.country{
+	font-size: 1.5em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 500px;
+	position: absolute;
+	top: 30px;
+	left: 805px;
+}
+img{
+	height: 60px;
+}
+li{
+	list-style-type: none;
+}
+label{
+	cursor: pointer;
+}
+input[name="country"]{
+	position: absolute;
+}
+#ukraine{
+	top: 360px;
+	left: 650px;
+}
+#spain{
+	top: 470px;
+	left: 150px;
+}
+#italy{
+	top: 460px;
+	left: 390px;
+}
+#france{
+	top: 425px;
+	left: 260px;
+}
+#germany{
+	top: 370px;
+	left: 350px;
+}
+.you{
+	position: absolute;
+	width: 30px;
+	height: 50px;
+	background-image: url(if_Men_Symbol_Restroom_Human_Toilet_1396824.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	transition: all ease 2s;
+}
+
+
+
+#ukraine:checked ~ .you{
+	top: 330px;
+	left: 650px;
+}
+#spain:checked ~ .you{
+	top: 435px;
+	left: 150px;
+}
+#italy:checked ~ .you{
+	top: 430px;
+	left: 390px;
+}
+#france:checked ~ .you{
+	top: 395px;
+	left: 260px;
+}
+#germany:checked ~ .you{
+	top: 340px;
+	left: 350px;
+}
